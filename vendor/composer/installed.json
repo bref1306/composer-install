@@ -1,0 +1,88 @@
+{
+    "packages": [
+        {
+            "name": "coursmicroservice/project-composer",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DamienDeveloppeur/first-package.git",
+                "reference": "81dbcea4cf0d97e09bf076a8651e8d4771f8283b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DamienDeveloppeur/first-package/zipball/81dbcea4cf0d97e09bf076a8651e8d4771f8283b",
+                "reference": "81dbcea4cf0d97e09bf076a8651e8d4771f8283b",
+                "shasum": ""
+            },
+            "time": "2022-02-22T10:06:38+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Coursmicroservice\\ProjectComposer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "mit"
+            ],
+            "authors": [
+                {
+                    "name": "mero",
+                    "email": "damienlhaurado@hotmail.com"
+                }
+            ],
+            "description": "....",
+            "support": {
+                "issues": "https://github.com/DamienDeveloppeur/first-package/issues",
+                "source": "https://github.com/DamienDeveloppeur/first-package/tree/master"
+            },
+            "install-path": "../coursmicroservice/project-composer"
+        },
+        {
+            "name": "sardoj/package-composer",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sardoj/package-composer.git",
+                "reference": "d7d9e47ee25a3db0405875ada7791301980be92c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sardoj/package-composer/zipball/d7d9e47ee25a3db0405875ada7791301980be92c",
+                "reference": "d7d9e47ee25a3db0405875ada7791301980be92c",
+                "shasum": ""
+            },
+            "time": "2022-02-22T09:39:53+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Sardoj\\PackageComposer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan SARDO",
+                    "email": "jonathan@uccellolabs.com"
+                }
+            ],
+            "description": "A great package made with Composer",
+            "support": {
+                "issues": "https://github.com/sardoj/package-composer/issues",
+                "source": "https://github.com/sardoj/package-composer/tree/master"
+            },
+            "install-path": "../sardoj/package-composer"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

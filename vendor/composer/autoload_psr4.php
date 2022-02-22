@@ -6,5 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Sardoj\\PackageComposer\\' => array($vendorDir . '/sardoj/package-composer/src'),
+    'Coursmicroservice\\ProjectComposer\\' => array($vendorDir . '/coursmicroservice/project-composer/src'),
     'Bref\\Test\\' => array($baseDir . '/src'),
 );

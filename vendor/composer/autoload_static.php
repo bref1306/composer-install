@@ -7,6 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit5a41737a2e650c41515373876c5852eb
 {
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Sardoj\\PackageComposer\\' => 23,
+        ),
+        'C' => 
+        array (
+            'Coursmicroservice\\ProjectComposer\\' => 34,
+        ),
         'B' => 
         array (
             'Bref\\Test\\' => 10,
@@ -14,6 +22,14 @@ class ComposerStaticInit5a41737a2e650c41515373876c5852eb
     );
 
     public static $prefixDirsPsr4 = array (
+        'Sardoj\\PackageComposer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sardoj/package-composer/src',
+        ),
+        'Coursmicroservice\\ProjectComposer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coursmicroservice/project-composer/src',
+        ),
         'Bref\\Test\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',

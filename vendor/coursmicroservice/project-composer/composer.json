@@ -1,0 +1,18 @@
+{
+    "name": "coursmicroservice/project-composer",
+    "type": "library",
+    "description": "....",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Coursmicroservice\\ProjectComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mero",
+            "email": "damienlhaurado@hotmail.com"
+        }
+    ],
+    "require": {}
+}
